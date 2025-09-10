@@ -79,9 +79,10 @@ a {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+.header-menu-list li {
     padding: 24px 0;
 }
-
 .header-menu-list a:hover,
 .header-menu-list a:focus,
 .header-menu-list a:active {
