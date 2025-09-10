@@ -26,15 +26,16 @@ ul{
 a{
     text-decoration: none;
 }
+.header > .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .header{
     display: flex;
     border-bottom: 1px solid #e7e9fc;
 }
-.header-container{
-    display: flex;
-    justify-content: space-between;
 
-}
 .header-menu{
     display: flex;
     align-items: center;
@@ -223,7 +224,7 @@ address{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .our-team-paragraph{
