@@ -27,11 +27,15 @@ a{
     text-decoration: none;
 }
 .header{
+    display: flex;
     border-bottom: 1px solid #e7e9fc;
 }
 .header-container{
     display: flex;
     justify-content: space-between;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 .header-menu{
     display: flex;
@@ -286,4 +290,20 @@ address{
     color: #F4F4FD;
     letter-spacing: 0.02em;
     max-width: 264px;
+}
+.footer-logo-head{
+    display: inline-block;
+    margin-bottom: 16px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    line-height: 1.3125;
+    text-decoration: none;
+    color: #2E2F42;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #4d5ae5;
 }
